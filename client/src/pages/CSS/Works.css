@@ -1,0 +1,58 @@
+.Works
+{
+    background-color: #fff;
+}
+
+.Works-container
+{
+    display: flex;
+    width: 81%;
+    margin: auto;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    column-gap: 80px;
+    align-items: center;
+    text-align: left;
+}
+
+.Works-image
+{
+    width: 100%;
+    height: auto;
+}
+
+.Works-contentContainer
+{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin: auto;
+}
+
+.Works-header
+{
+    color: #000;
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 32px;
+}
+
+.Works-description
+{
+    color: #000;
+    font-size: 16px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+.Works-sketchContainer
+{
+    height: inherit;
+    width: 50%;
+}
+
+#worksModel
+{
+    height: 50vh;
+    border: none;
+}
