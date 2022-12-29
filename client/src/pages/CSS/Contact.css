@@ -1,0 +1,72 @@
+.Contact-container
+{
+    background-color: #CAFFF5;
+    height: 350px;
+    z-index: 1;
+    position: relative;
+    bottom: 151px;
+    /* width: 70%; */
+    width: 1000px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contact-us
+{
+    width: 206px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 21px;
+    text-align: center;
+    background-color: #18181B;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    margin-bottom: 67px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact-us:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+
+.Contact-us::after
+{
+    content: url("../../images/cheveron-right.png");
+    padding-left: 16px;
+    padding-top: 4px;
+}
+
+
+.Contact-us:hover::after
+{
+    content: url("../../images/chevron-right-black.png");
+    padding-left: 16px;
+    padding-top: 4px;
+}
+
+.Contact-header
+{
+    font-size: 36px;
+    width: 70%;
+    font-weight: bold;
+    padding-top: 67px;
+}
+
+.Contact-text
+{
+    padding-top: 18px;
+    padding-bottom: 32px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+/*bottom 151px*/
