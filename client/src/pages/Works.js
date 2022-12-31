@@ -1,7 +1,6 @@
 import React from 'react';
 import './CSS/Works.css';
 import './CSS/Design.css';
-import image from '../images/worksImage.png';
 
 export default function Works(){
     const domRef = React.useRef();

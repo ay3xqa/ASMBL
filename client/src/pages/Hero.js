@@ -6,8 +6,6 @@ import * as Yup from 'yup';
 import axios from 'axios';
 
 export default function Hero() {
-    const nameField = document.getElementById("name");
-    const emailField = document.getElementById("email");
 
     const initialValues = {
         name: "",

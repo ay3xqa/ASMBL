@@ -1,11 +1,10 @@
 import './App.css';
 import './fonts/SpaceGrotesk-Bold.ttf';
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter as Router} from "react-router-dom";
 import Hero from './pages/Hero';
 import Works from './pages/Works';
 import Community from './pages/Community';
 import Team from './pages/Team';
-import Contact from './pages/Contact';
 import Footer from './pages/Footer';
 
 function App() {
