@@ -15,7 +15,7 @@ export default function Hero() {
     };
 
     const onSubmit = (data, {resetForm}) => {
-        axios.post("http://localhost:3001/waitlist", data).then((response) => {
+        axios.post("https://asmbl-deploy.herokuapp.com/waitlist", data).then((response) => {
             console.log("it worked");
             resetForm({values: ""});
         })
