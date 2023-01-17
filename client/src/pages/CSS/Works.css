@@ -56,3 +56,30 @@
     height: 50vh;
     border: none;
 }
+
+@media screen and (max-width: 480px) 
+{
+    .Works-container
+    {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 100%;
+
+        flex-direction: column;
+    }
+
+    .Works-contentContainer
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%
+    }
+
+    .Works-sketchContainer
+    {
+        height: inherit;
+        width: 100%;
+    }
+}

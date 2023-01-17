@@ -123,3 +123,23 @@ span
     font-size: 20px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 480px) 
+{
+    .Community-container
+    {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 100%;
+        
+        flex-direction: column;
+        gap: 64px;
+    }
+
+    .Community-lContainer, .Community-rContainer
+    {
+        width: 100%;
+    }
+}

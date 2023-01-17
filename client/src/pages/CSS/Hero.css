@@ -164,7 +164,7 @@ span {
     flex-direction: column;
 }
 
-@media screen and (max-width: 768px) 
+@media screen and (max-width: 480px) 
 {
     .Hero-container
     {
@@ -172,7 +172,32 @@ span {
         margin-left: auto;
         padding-left: 16px;
         padding-right: 16px;
+        width: 100%;
     }
+
+
+    .Hero-header
+    {
+        font-size: 60px;
+    }
+
+    .Hero-header2
+    {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .Hero-subtext
+    {
+        width: 100%;
+    }
+
+    .Hero-vod
+    {
+        width: 80%;
+        height: auto;
+    }
+
 
     .Hero-description
     {

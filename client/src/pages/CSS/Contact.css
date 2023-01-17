@@ -6,8 +6,9 @@
     position: relative;
     bottom: 151px;
     /* width: 70%; */
-    width: 1000px;
+    width: 62.5%;
     border-radius: 10px;
+    margin: auto;
 
     display: flex;
     flex-direction: column;
@@ -70,3 +71,17 @@
     font-weight: lighter;
 }
 /*bottom 151px*/
+
+@media screen and (max-width: 480px) 
+{
+    .Contact-header
+    {
+        font-size: 28px;
+        width: 100%;
+    }
+
+    .Contact-text
+    {
+        font-size: 14px
+    }
+}

@@ -13,7 +13,16 @@ function Footer() {
             </p>
             <a  className='Contact-us' href='mailto:ay3xqa@virginia.edu?subject=Inquiring About ASMBL'>Contact Us</a>
         </div>
-        <div className='Footer' ></div>
+        <div className='Footer-container'>
+          <div>
+            © Copyright 2022, All Rights Reserved
+          </div>
+          <div className='Footer-links'>
+            <p>Support</p>
+            <p>Terms & Conditions</p>
+            <p>Privacy Policy</p>
+          </div>
+        </div>
     </section>
   )
 }
