@@ -178,7 +178,7 @@ span {
 
     .Hero-header
     {
-        font-size: 60px;
+        font-size: 55px;
     }
 
     .Hero-header2
@@ -202,6 +202,23 @@ span {
     .Hero-description
     {
         font-size: 28px;
+    }
+
+    #name
+    {
+        width: 280px;
+        margin: auto;
+    }
+
+    #email
+    {
+        width: 280px;
+        margin: auto;
+    }
+
+    .Hero-button
+    {
+        width: 280px;
     }
 }
 

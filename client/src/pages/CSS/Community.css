@@ -142,4 +142,9 @@ span
     {
         width: 100%;
     }
+
+    .Community-facts
+    {
+        flex-wrap: wrap;
+    }
 }
